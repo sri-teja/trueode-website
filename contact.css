@@ -1,0 +1,41 @@
+.contact-name
+{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight:bold;
+    line-height: 48px;
+    letter-spacing: 1.2px;
+    margin-top: 0px;
+    color: black;
+}
+.contact-position
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    color: #696969;
+  
+}
+.contact-email
+{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.8px;
+    color: #3e0382;
+    margin-top: 10px;
+}
+
+.blog-img
+{
+    height: 200px;
+   width: 100%;
+    margin:5px auto;
+    background: white;
+    border-radius: 12px;
+    display: block;
+    object-fit: cover
+}

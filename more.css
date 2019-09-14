@@ -1,0 +1,107 @@
+.back-button
+{
+    border-radius: 50%;
+    color: #3e0382;
+    background: white;
+    border:1px solid white;
+    width: 40px;
+    height: 40px;
+    font-weight: 600   ;
+    position: relative;
+    top: -9px;
+}
+.back-button a i
+{
+    font-size: 20px;
+    color: #3e0382
+}
+.logo
+{
+    width:100px;
+    height: 100px;
+    background:rgba(62,3 ,130, 0.2)
+}
+.page-heading
+{
+    font-family: Poppins;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 72px;
+  letter-spacing: 1.8px;
+  color: #3e0382;
+  display: inline-block;
+  padding-inline-start:0.5em;
+  text-transform: capitalize;
+  position: relative;
+    left: 70%;
+
+-webkit-animation: slide 1s forwards;
+-webkit-animation-delay: 0;
+animation: slide 0.75s forwards;
+animation-delay: 0s;
+
+}
+
+.content-heading
+{
+    font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 1px;
+  padding-left: 3em;
+  
+
+
+}
+.content 
+{
+   font-family: Poppins;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.8px;
+  color: #696969;
+    padding-left: 3.5em;
+    margin: 15px auto
+
+}
+
+
+
+@-webkit-keyframes slide {
+100% { left: 0; }
+}
+
+@keyframes slide {
+100% { left: 0; }
+}
+
+.user-img
+{
+    width: 160px;
+    height: 160px;
+    background: white;
+    
+}
+
+
+.animated {
+    animation: fadeOut 0.5s forwards;
+    /* -webkit-animation-duration: 10s;animation-duration: 10s; */
+    /* -webkit-animation-fill-mode: both;animation-fill-mode:forwards; */
+ }
+ 
+ @-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+ }
+ 
+ .fadeOut {
+    -webkit-animation-name: fadeOut;
+    
+} 

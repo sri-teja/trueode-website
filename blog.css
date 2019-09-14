@@ -1,0 +1,47 @@
+.blog-title
+{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.2px;
+    
+
+}
+.blog-author
+{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 48px;
+    letter-spacing: 1.2px;
+  color: black;
+}
+.article
+{
+    font-family: Poppins;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #696969;
+  margin-bottom: 0
+}
+.email-input
+{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  background-color: #ebebeb;
+    height: 40px;
+}
+
+.news-button
+{
+    width: 50px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    height: 40px;
+    background: #3e0382
+}
+.news-button i{
+    font-size: 18px;
+}
